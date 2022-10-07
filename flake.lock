@@ -1,0 +1,27 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1665170191,
+        "narHash": "sha256-MBe+ZLDVzhtN+REvtHZhGeL8YdpYDiuluhX2k1/NXcg=",
+        "owner": "StarGate01",
+        "repo": "nixpkgs",
+        "rev": "57c6a15c7f32d2348ea917abc03f42547ddce1bd",
+        "type": "github"
+      },
+      "original": {
+        "owner": "StarGate01",
+        "ref": "bip_utils_update",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

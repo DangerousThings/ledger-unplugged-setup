@@ -1,6 +1,6 @@
 {
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs";
+    nixpkgs.url = "github:StarGate01/nixpkgs/bip_utils_update";
   };
 
   outputs = { self, nixpkgs }:
@@ -18,6 +18,7 @@
               cryptography
               asn1
               pyscard
+              bip_utils
             ]))
           ];
         };
