@@ -1,6 +1,6 @@
 {
   inputs = {
-    nixpkgs.url = "github:StarGate01/nixpkgs/bip_utils_update";
+    nixpkgs.url = "github:nixos/nixpkgs";
   };
 
   outputs = { self, nixpkgs }:
